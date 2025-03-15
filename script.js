@@ -7,3 +7,4 @@ document.getElementById("user-name").textContent = tg.initDataUnsafe?.user?.firs
 document.getElementById("send-data").addEventListener("click", function() {
     tg.sendData("Foydalanuvchi tugmani bosdi!"); // Botga ma'lumot yuborish
 });
+console.log("Ma'lumot yuborildi:", data);
